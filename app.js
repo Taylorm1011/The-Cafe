@@ -1,6 +1,8 @@
 const http = require("http");
 const fs = require("fs");
 
+const PORT = process.env.PORT || 3000;
+
 //server configiguration
 const hostname = "127.0.0.1";
 const port = 3200;
